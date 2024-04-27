@@ -1,5 +1,4 @@
 # Store-Crud-Operation-With-Spring-Boot-Mvc
-# Spring Boot MVC CRUD Demo - Store Application
 
 Bu proje, Spring Boot, Thymeleaf, MySQL ve Spring Data JPA kullanılarak geliştirilmiş bir CRUD (Create, Read, Update, Delete) demo uygulamasıdır. Bu uygulama, bir mağaza sisteminin temel işlevlerini içerir: ürün ekleme, görüntüleme, güncelleme ve silme.
 
@@ -34,7 +33,27 @@ Projenin yerel ortamınıza kurulumu ve çalıştırılması için aşağıdaki 
 - MySQL
 
 ## Proje Yapısı
-
+spring-boot-mvc/
+│
+├── src/
+│ ├── main/
+│ │ ├── java/com/example/store_demo/
+│ │ │ ├── controller/ # MVC controller sınıfları
+│ │ │ ├── entity/ # Veritabanı model sınıfları
+│ │ │ ├── repository/ # Spring Data JPA repository sınıfları
+│ │ │ ├── service/ # İş mantığı servis sınıfları
+│ │ │ └── StoreDemoApplication.java # Uygulamanın ana sınıfı
+│ │ └── resources/
+│ │ ├── static/ # Statik dosyalar (CSS, JavaScript vb.)
+│ │ ├── templates/ # Thymeleaf şablon dosyaları
+│ │ └── application.properties # Uygulama yapılandırma dosyası
+│ └── test/ # Test sınıfları (isteğe bağlı)
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── pom.xml
+# Ekran Görüntüleri
 
 ![1](https://github.com/Ulasgltkn/Store-Crud-Operation-With-Spring-Boot-Mvc/assets/103432181/85f04cf2-9c8a-4be1-bf08-0ea61a7b0ccb)
 ![2](https://github.com/Ulasgltkn/Store-Crud-Operation-With-Spring-Boot-Mvc/assets/103432181/6e8dd130-10a8-40da-8348-02f9a484a6b7)
