@@ -33,26 +33,7 @@ Projenin yerel ortamınıza kurulumu ve çalıştırılması için aşağıdaki 
 - MySQL
 
 ## Proje Yapısı
-spring-boot-mvc/
-│
-├── src/
-│ ├── main/
-│ │ ├── java/com/example/store_demo/
-│ │ │ ├── controller/ # MVC controller sınıfları
-│ │ │ ├── entity/ # Veritabanı model sınıfları
-│ │ │ ├── repository/ # Spring Data JPA repository sınıfları
-│ │ │ ├── service/ # İş mantığı servis sınıfları
-│ │ │ └── StoreDemoApplication.java # Uygulamanın ana sınıfı
-│ │ └── resources/
-│ │ ├── static/ # Statik dosyalar (CSS, JavaScript vb.)
-│ │ ├── templates/ # Thymeleaf şablon dosyaları
-│ │ └── application.properties # Uygulama yapılandırma dosyası
-│ └── test/ # Test sınıfları (isteğe bağlı)
-│
-├── .gitignore
-├── LICENSE
-├── README.md
-└── pom.xml
+![6](https://github.com/Ulasgltkn/Store-Crud-Operation-With-Spring-Boot-Mvc/assets/103432181/0460cc50-ce99-4af2-8f9a-22296d6ec90c)
 # Ekran Görüntüleri
 
 ![1](https://github.com/Ulasgltkn/Store-Crud-Operation-With-Spring-Boot-Mvc/assets/103432181/85f04cf2-9c8a-4be1-bf08-0ea61a7b0ccb)
